@@ -1,0 +1,1019 @@
+###############################################################################
+#
+# IAR ELF Linker V8.10.1.12857/W32 for ARM                22/Apr/2017  15:15:55
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Exe\SensorTile.out
+#    Map file     =  
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\List\SensorTile.map
+#    Command line =  
+#        -f C:\Users\DengQ\AppData\Local\Temp\EWD3B4.tmp
+#        (C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\Adafruit_NeoPixel.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\dma.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\gpio.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\LSM303AGR_ACC_driver.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\LSM303AGR_ACC_driver_HL.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\LSM303AGR_MAG_driver.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\LSM303AGR_MAG_driver_HL.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\LSM6DSM_ACC_GYRO_driver.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\LSM6DSM_ACC_GYRO_driver_HL.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\main.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\SensorTile.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\SensorTile_accelero.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\SensorTile_gyro.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\spi.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\startup_stm32l476xx.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_cortex.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_dma.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_flash.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_flash_ex.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_flash_ramfunc.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_gpio.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_i2c.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_i2c_ex.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_msp.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_pcd.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_pcd_ex.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_pwr.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_pwr_ex.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_rcc.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_rcc_ex.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_spi.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_spi_ex.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_tim.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_hal_tim_ex.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_it.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\stm32l4xx_ll_usb.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\system_stm32l4xx.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\usb_device.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\usbd_cdc.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\usbd_cdc_if.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\usbd_conf.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\usbd_core.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\usbd_ctlreq.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\usbd_desc.o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj\usbd_ioreq.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Exe\SensorTile.out
+#        --map
+#        C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\List\SensorTile.map
+#        --config C:\Users\DengQ\Desktop\SensorTile\EWARM/stm32l476xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x080fffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20017fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                      0x188
+  .intvec            ro code  0x08000000   0x188  startup_stm32l476xx.o [1]
+                            - 0x08000188   0x188
+
+"P1":                                     0x8207
+  .text              ro code  0x08000188  0x10fe  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+  .text              ro code  0x08001286    0x7a  lz77_init_single.o [5]
+  .text              ro code  0x08001300   0xbc8  LSM6DSM_ACC_GYRO_driver.o [1]
+  .text              ro code  0x08001ec8   0x668  SensorTile.o [1]
+  .text              ro code  0x08002530    0xc8  stm32l4xx_hal_pwr_ex.o [1]
+  .text              ro code  0x080025f8   0x1dc  stm32l4xx_hal_gpio.o [1]
+  .text              ro code  0x080027d4   0x2e8  stm32l4xx_hal_spi.o [1]
+  .text              ro code  0x08002abc   0x7ca  stm32l4xx_hal_i2c.o [1]
+  .text              ro code  0x08003288    0xda  stm32l4xx_hal_cortex.o [1]
+  .text              ro code  0x08003364   0x5c8  stm32l4xx_hal_rcc_ex.o [1]
+  .text              ro code  0x0800392c    0xe0  spi.o [1]
+  .text              ro code  0x08003a0c   0x234  stm32l4xx_hal_dma.o [1]
+  .text              ro code  0x08003c40     0xc  stm32l4xx_hal.o [1]
+  .text              ro code  0x08003c4c     0x2  stm32l4xx_hal_spi.o [1]
+  .text              ro code  0x08003c4e     0x2  stm32l4xx_hal_spi.o [1]
+  .text              ro code  0x08003c50     0x2  stm32l4xx_hal_spi.o [1]
+  .text              ro code  0x08003c52     0x2  stm32l4xx_hal_i2c.o [1]
+  .text              ro code  0x08003c54   0x25c  main.o [1]
+  .text              ro code  0x08003eb0    0x1a  stm32l4xx_hal.o [1]
+  .text              ro code  0x08003ecc   0x110  gpio.o [1]
+  .text              ro code  0x08003fdc    0x34  dma.o [1]
+  .text              ro code  0x08004010    0x44  usb_device.o [1]
+  .text              ro code  0x08004054    0x22  stm32l4xx_hal.o [1]
+  .text              ro code  0x08004078   0x1f0  Adafruit_NeoPixel.o [1]
+  .text              ro code  0x08004268    0x9c  usbd_cdc_if.o [1]
+  .text              ro code  0x08004304   0x1ec  SensorTile_accelero.o [1]
+  .text              ro code  0x080044f0   0x798  stm32l4xx_hal_rcc.o [1]
+  .text              ro code  0x08004c88    0x2c  stm32l4xx_hal.o [1]
+  .text              ro code  0x08004cb4    0x90  stm32l4xx_hal_msp.o [1]
+  .text              ro code  0x08004d44   0x296  usbd_core.o [1]
+  .text              ro code  0x08004fdc   0x266  usbd_cdc.o [1]
+  .text              ro code  0x08005244   0x358  usbd_conf.o [1]
+  .text              ro code  0x0800559c     0x6  ABImemclr.o [5]
+  .text              ro code  0x080055a4   0x49e  usbd_ctlreq.o [1]
+  .text              ro code  0x08005a42    0x9c  usbd_ioreq.o [1]
+  .text              ro code  0x08005ae0   0xa72  stm32l4xx_hal_pcd.o [1]
+  .text              ro code  0x08006554    0xd4  stm32l4xx_hal_pcd_ex.o [1]
+  .text              ro code  0x08006628    0x5e  ABImemset.o [5]
+  .text              ro code  0x08006688   0x884  stm32l4xx_ll_usb.o [1]
+  .text              ro code  0x08006f0c    0x86  ABImemcpy.o [5]
+  .text              ro code  0x08006f94   0x82c  LSM303AGR_ACC_driver_HL.o [1]
+  .text              ro code  0x080077c0   0x4ae  LSM303AGR_ACC_driver.o [1]
+  .text              ro code  0x08007c70   0x132  I64DivMod.o [5]
+  .text              ro code  0x08007da4     0x2  I64DivZer.o [5]
+  .text              ro code  0x08007da8    0xe4  usbd_desc.o [1]
+  .text              ro code  0x08007e8c    0x8c  system_stm32l4xx.o [1]
+  .text              ro code  0x08007f18    0x40  zero_init3.o [5]
+  .text              ro code  0x08007f58    0x38  stm32l4xx_it.o [1]
+  .text              ro code  0x08007f90    0x10  stm32l4xx_hal.o [1]
+  .text              ro code  0x08007fa0    0x28  data_init.o [5]
+  .text              ro code  0x08007fc8    0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x08007fec    0x20  - Linker created -
+  .text              ro code  0x0800800c    0x1a  cmain.o [5]
+  .text              ro code  0x08008026     0x4  low_level_init.o [3]
+  .text              ro code  0x0800802a     0x4  exit.o [3]
+  .text              ro code  0x08008030     0xa  cexit.o [5]
+  .text              ro code  0x0800803c    0x14  exit.o [6]
+  .text              ro code  0x08008050    0x10  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008060     0xc  cstartup_M.o [5]
+  .text              ro code  0x0800806c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008070     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008074     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008078     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800807c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008080     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008084     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008088     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800808c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008090     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008094     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008098     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800809c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080a0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080a4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080a8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080ac     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080b0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080b4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080b8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080bc     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080c0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080c4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080c8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080cc     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080d0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080d4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080d8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080dc     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080e0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080e4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080e8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080ec     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080f0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080f4     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080f8     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080080fc     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008100     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008104     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008108     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800810c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008110     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008114     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008118     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800811c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008120     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008124     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008128     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800812c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008130     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008134     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008138     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800813c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008140     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008144     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008148     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800814c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008150     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008154     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008158     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800815c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008160     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008164     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008168     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800816c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008170     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008174     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008178     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800817c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008180     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008184     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008188     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800818c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008190     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008194     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x08008198     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x0800819c     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080081a0     0x4  startup_stm32l476xx.o [1]
+  .text              ro code  0x080081a4     0x4  startup_stm32l476xx.o [1]
+  .rodata            const    0x080081a8     0x0  zero_init3.o [5]
+  .rodata            const    0x080081a8     0x0  lz77_init_single.o [5]
+  Initializer bytes  const    0x080081a8   0x1e7  <for P2-1>
+                            - 0x0800838f  0x8207
+
+"P2", part 1 of 3:                         0x2ae
+  P2-1                        0x20000000   0x2ae  <Init block>
+    .data            inited   0x20000000    0x50  LSM303AGR_ACC_driver_HL.o [1]
+    .data            inited   0x20000050    0x94  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+    .data            inited   0x200000e4    0x50  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+    .data            inited   0x20000134     0x8  SensorTile.o [1]
+    .data            inited   0x2000013c     0x4  system_stm32l4xx.o [1]
+    .data            inited   0x20000140     0xc  usbd_cdc.o [1]
+    .data            inited   0x2000014c    0x38  usbd_cdc.o [1]
+    .data            inited   0x20000184    0x44  usbd_cdc.o [1]
+    .data            inited   0x200001c8    0x44  usbd_cdc.o [1]
+    .data            inited   0x2000020c    0x44  usbd_cdc.o [1]
+    .data            inited   0x20000250     0x8  usbd_cdc_if.o [1]
+    .data            inited   0x20000258    0x10  usbd_cdc_if.o [1]
+    .data            inited   0x20000268    0x20  usbd_desc.o [1]
+    .data            inited   0x20000288    0x14  usbd_desc.o [1]
+    .data            inited   0x2000029c     0xc  usbd_desc.o [1]
+    .data            inited   0x200002a8     0x4  usbd_desc.o [1]
+    .data            inited   0x200002ac     0x2  Adafruit_NeoPixel.o [1]
+                            - 0x200002ae   0x2ae
+
+"P2", part 2 of 3:                        0x1000
+  CSTACK                      0x200002b0  0x1000  <Block>
+    CSTACK           uninit   0x200002b0  0x1000  <Block tail>
+                            - 0x200012b0  0x1000
+
+"P2", part 3 of 3:                        0x13f0
+  .bss               zero     0x200012b0   0x800  usbd_cdc_if.o [1]
+  .bss               zero     0x20001ab0   0x3cc  usbd_conf.o [1]
+  .bss               zero     0x20001e7c   0x224  usb_device.o [1]
+  .bss               zero     0x200020a0   0x220  usbd_conf.o [1]
+  .bss               zero     0x200022c0   0x200  usbd_desc.o [1]
+  .bss               zero     0x200024c0    0x64  SensorTile.o [1]
+  .bss               zero     0x20002524    0x64  spi.o [1]
+  .bss               zero     0x20002588    0x4c  SensorTile.o [1]
+  .bss               zero     0x200025d4    0x48  SensorTile_accelero.o [1]
+  .bss               zero     0x2000261c    0x48  spi.o [1]
+  .bss               zero     0x20002664    0x18  Adafruit_NeoPixel.o [1]
+  .bss               zero     0x2000267c    0x18  main.o [1]
+  .bss               zero     0x20002694     0x4  stm32l4xx_hal.o [1]
+  .bss               zero     0x20002698     0x2  LSM303AGR_ACC_driver_HL.o [1]
+  .bss               zero     0x2000269a     0x2  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+  .bss               zero     0x2000269c     0x1  usbd_cdc.o [1]
+  .bss               zero     0x2000269d     0x1  usbd_ctlreq.o [1]
+                            - 0x2000269e  0x13ee
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x13ee:
+          0x200012b0  0x13ee
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x1e7 (70% of destination):
+          0x080081a8   0x1e7
+    1 destination range, total size 0x2ae:
+          0x20000000   0x2ae
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                        ro code  ro data  rw data
+    ------                        -------  -------  -------
+C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj: [1]
+    Adafruit_NeoPixel.o               496        2       26
+    LSM303AGR_ACC_driver.o          1 198
+    LSM303AGR_ACC_driver_HL.o       2 092       56       82
+    LSM6DSM_ACC_GYRO_driver.o       3 016
+    LSM6DSM_ACC_GYRO_driver_HL.o    4 350      162      230
+    SensorTile.o                    1 640        6      184
+    SensorTile_accelero.o             492                72
+    dma.o                              52
+    gpio.o                            272
+    main.o                            604                24
+    spi.o                             224               172
+    startup_stm32l476xx.o             724
+    stm32l4xx_hal.o                   132                 4
+    stm32l4xx_hal_cortex.o            218
+    stm32l4xx_hal_dma.o               564
+    stm32l4xx_hal_gpio.o              476
+    stm32l4xx_hal_i2c.o             1 996
+    stm32l4xx_hal_msp.o               144
+    stm32l4xx_hal_pcd.o             2 674
+    stm32l4xx_hal_pcd_ex.o            212
+    stm32l4xx_hal_pwr_ex.o            200
+    stm32l4xx_hal_rcc.o             1 944
+    stm32l4xx_hal_rcc_ex.o          1 480
+    stm32l4xx_hal_spi.o               750
+    stm32l4xx_it.o                     56
+    stm32l4xx_ll_usb.o              2 180
+    system_stm32l4xx.o                140        3        4
+    usb_device.o                       68               548
+    usbd_cdc.o                        614      193      273
+    usbd_cdc_if.o                     156       17    2 072
+    usbd_conf.o                       856             1 516
+    usbd_core.o                       662
+    usbd_ctlreq.o                   1 182                 1
+    usbd_desc.o                       228       48      580
+    usbd_ioreq.o                      156
+    -------------------------------------------------------
+    Total:                         32 248      487    5 788
+
+command line: [2]
+    -------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                              4
+    low_level_init.o                    4
+    -------------------------------------------------------
+    Total:                              8
+
+m7M_tls.a: [4]
+    fpinit_M.o                         34
+    -------------------------------------------------------
+    Total:                             34
+
+rt7M_tl.a: [5]
+    ABImemclr.o                         6
+    ABImemcpy.o                       134
+    ABImemset.o                        94
+    I64DivMod.o                       306
+    I64DivZer.o                         2
+    cexit.o                            10
+    cmain.o                            26
+    cstartup_M.o                       12
+    data_init.o                        40
+    lz77_init_single.o                122
+    zero_init3.o                       64
+    -------------------------------------------------------
+    Total:                            816
+
+shb_l.a: [6]
+    exit.o                             20
+    -------------------------------------------------------
+    Total:                             20
+
+    Gaps                               32        2
+    Linker created                              32    4 096
+-----------------------------------------------------------
+    Grand Total:                   33 158      521    9 884
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08007fec          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0800800c          --   Gb  - Linker created -
+?main                   0x0800800d         Code  Gb  cmain.o [5]
+ACCELERO_Data           0x200025fc   0x10  Data  Lc  SensorTile_accelero.o [1]
+ACCELERO_SensorHandle   0x200025d4   0x28  Data  Lc  SensorTile_accelero.o [1]
+ACC_Value               0x2000267c    0xc  Data  Gb  main.o [1]
+AHBPrescTable           0x08007ed8   0x10  Data  Gb  system_stm32l4xx.o [1]
+B                       0x2000268b    0x1  Data  Gb  main.o [1]
+BSP_ACCELERO_Get_Axes   0x080044cd   0x24  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Get_WhoAmI
+                        0x080044af   0x1e  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Init       0x08004305   0x40  Code  Gb  SensorTile_accelero.o [1]
+BSP_ACCELERO_Sensor_Enable
+                        0x08004491   0x1e  Code  Gb  SensorTile_accelero.o [1]
+BSP_LED_Init            0x08001ec9   0x74  Code  Gb  SensorTile.o [1]
+BSP_LED_Toggle          0x08001f3d   0x16  Code  Gb  SensorTile.o [1]
+BSP_LSM303AGR_ACCELERO_Init
+                        0x080043dd   0x9a  Code  Lc  SensorTile_accelero.o [1]
+BSP_LSM6DSM_ACCELERO_Init
+                        0x08004345   0x98  Code  Lc  SensorTile_accelero.o [1]
+BusFault_Handler        0x08007f5f    0x2  Code  Gb  stm32l4xx_it.o [1]
+CDC_Control_FS          0x0800428f   0x2c  Code  Lc  usbd_cdc_if.o [1]
+CDC_DeInit_FS           0x0800428b    0x4  Code  Lc  usbd_cdc_if.o [1]
+CDC_Init_FS             0x08004269   0x22  Code  Lc  usbd_cdc_if.o [1]
+CDC_Receive_FS          0x080042bb   0x16  Code  Lc  usbd_cdc_if.o [1]
+CDC_Transmit_FS         0x080042d1   0x26  Code  Gb  usbd_cdc_if.o [1]
+CSTACK$$Base            0x200002b0          --   Gb  - Linker created -
+CSTACK$$Limit           0x200012b0          --   Gb  - Linker created -
+DMA2_Channel2_IRQHandler
+                        0x08007f7b    0x6  Code  Gb  stm32l4xx_it.o [1]
+DebugMon_Handler        0x08007f65    0x2  Code  Gb  stm32l4xx_it.o [1]
+Error_Handler           0x08003e49    0x2  Code  Gb  main.o [1]
+FS_Desc                 0x20000268   0x20  Data  Gb  usbd_desc.o [1]
+G                       0x2000268a    0x1  Data  Gb  main.o [1]
+GPIO_PIN                0x08002528    0x8  Data  Gb  SensorTile.o [1]
+GPIO_PORT               0x20000134    0x8  Data  Gb  SensorTile.o [1]
+HAL_DMA_IRQHandler      0x08003b8b   0xb6  Code  Gb  stm32l4xx_hal_dma.o [1]
+HAL_DMA_Init            0x08003a0d   0xd8  Code  Gb  stm32l4xx_hal_dma.o [1]
+HAL_DMA_Start_IT        0x08003af9   0x92  Code  Gb  stm32l4xx_hal_dma.o [1]
+HAL_Delay               0x08004055   0x22  Code  Wk  stm32l4xx_hal.o [1]
+HAL_GPIO_Init           0x080025f9  0x1a4  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin      0x080027a7    0x8  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x0800279d    0xa  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GetTick             0x08003c41    0xc  Code  Wk  stm32l4xx_hal.o [1]
+HAL_I2C_DeInit          0x08002b6f   0x34  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_GetState        0x08002ff9    0x6  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Init            0x08002abd   0xb2  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Mem_Read        0x08002dd1  0x21c  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Mem_Write       0x08002ba3  0x22e  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_IncTick             0x08007f91   0x10  Code  Wk  stm32l4xx_hal.o [1]
+HAL_Init                0x08003eb1   0x1a  Code  Gb  stm32l4xx_hal.o [1]
+HAL_InitTick            0x08004c89   0x2c  Code  Wk  stm32l4xx_hal.o [1]
+HAL_MspInit             0x08004cb5   0x90  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ      0x080032f5   0x12  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x080032a3   0x52  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08003289   0x1a  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_PCDEx_ActivateBCD   0x08006615   0x14  Code  Gb  stm32l4xx_hal_pcd_ex.o [1]
+HAL_PCDEx_ActivateLPM   0x080065ef   0x26  Code  Gb  stm32l4xx_hal_pcd_ex.o [1]
+HAL_PCDEx_LPM_Callback  0x08005517   0x5e  Code  Gb  usbd_conf.o [1]
+HAL_PCDEx_SetRxFiFo     0x080065e7    0x8  Code  Gb  stm32l4xx_hal_pcd_ex.o [1]
+HAL_PCDEx_SetTxFiFo     0x08006555   0x92  Code  Gb  stm32l4xx_hal_pcd_ex.o [1]
+HAL_PCD_ConnectCallback
+                        0x080053a5    0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_DataInStageCallback
+                        0x08005307   0x12  Code  Gb  usbd_conf.o [1]
+HAL_PCD_DataOutStageCallback
+                        0x080052f3   0x14  Code  Gb  usbd_conf.o [1]
+HAL_PCD_DisconnectCallback
+                        0x080053ad    0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_EP_Close        0x080062e7   0x46  Code  Gb  stm32l4xx_hal_pcd.o [1]
+HAL_PCD_EP_ClrStall     0x0800645d   0x54  Code  Gb  stm32l4xx_hal_pcd.o [1]
+HAL_PCD_EP_GetRxCount   0x08006387   0x14  Code  Gb  stm32l4xx_hal_pcd.o [1]
+HAL_PCD_EP_Open         0x08006299   0x4e  Code  Gb  stm32l4xx_hal_pcd.o [1]
+HAL_PCD_EP_Receive      0x0800632d   0x5a  Code  Gb  stm32l4xx_hal_pcd.o [1]
+HAL_PCD_EP_SetStall     0x080063f7   0x66  Code  Gb  stm32l4xx_hal_pcd.o [1]
+HAL_PCD_EP_Transmit     0x0800639b   0x5c  Code  Gb  stm32l4xx_hal_pcd.o [1]
+HAL_PCD_IRQHandler      0x08005c9d  0x586  Code  Gb  stm32l4xx_hal_pcd.o [1]
+HAL_PCD_ISOINIncompleteCallback
+                        0x0800539d    0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_ISOOUTIncompleteCallback
+                        0x08005395    0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_Init            0x08005ae1  0x192  Code  Gb  stm32l4xx_hal_pcd.o [1]
+HAL_PCD_MspInit         0x08005245   0xa2  Code  Gb  usbd_conf.o [1]
+HAL_PCD_ResetCallback   0x08005321   0x1a  Code  Gb  usbd_conf.o [1]
+HAL_PCD_ResumeCallback  0x08005365   0x30  Code  Gb  usbd_conf.o [1]
+HAL_PCD_SOFCallback     0x08005319    0x8  Code  Gb  usbd_conf.o [1]
+HAL_PCD_SetAddress      0x08006271   0x28  Code  Gb  stm32l4xx_hal_pcd.o [1]
+HAL_PCD_SetupStageCallback
+                        0x080052e7    0xc  Code  Gb  usbd_conf.o [1]
+HAL_PCD_Start           0x08005c73   0x2a  Code  Gb  stm32l4xx_hal_pcd.o [1]
+HAL_PCD_SuspendCallback
+                        0x0800533b   0x2a  Code  Gb  usbd_conf.o [1]
+HAL_PWREx_ControlVoltageScaling
+                        0x0800253d   0x90  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_PWREx_EnableVddIO2  0x080025db    0xe  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_PWREx_EnableVddUSB  0x080025cd    0xe  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_PWREx_GetVoltageRange
+                        0x08002531    0xc  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x08003365  0x36a  Code  Gb  stm32l4xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x080049bd  0x170  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08004bdd    0x6  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08004b2d   0xb0  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x080044f1  0x4cc  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_SPI_GetState        0x0800297d    0x6  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_Init            0x080027d5   0xac  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x0800397f   0x78  Code  Gb  spi.o [1]
+HAL_SPI_Transmit_DMA    0x08002881   0xfc  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x08003329   0x1a  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x08003307   0x22  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x08003343    0x4  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HardFault_Handler       0x08007f5b    0x2  Code  Gb  stm32l4xx_it.o [1]
+I2C_Flush_TXDR          0x08003151   0x1c  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_IsAcknowledgeFailed
+                        0x0800320b   0x74  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_RequestMemoryRead   0x080030a7   0xa2  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_RequestMemoryWrite  0x08002fff   0xa6  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_SENSORTILE_Handle   0x20002588   0x4c  Data  Lc  SensorTile.o [1]
+I2C_SENSORTILE_Init     0x08002437   0xc6  Code  Lc  SensorTile.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                        0x080031bf   0x4c  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                        0x0800316d   0x52  Code  Lc  stm32l4xx_hal_i2c.o [1]
+LSM303AGR_ACC_Get_Acceleration
+                        0x080078b1  0x144  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_Get_Raw_Acceleration
+                        0x08007899   0x18  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_FullScale
+                        0x08007879   0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_HiRes   0x08007bf1   0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_LOWPWR_EN
+                        0x08007bd1   0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_ODR     0x08007a97   0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_WHO_AM_I
+                        0x080077e5   0x18  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_XDataAvail
+                        0x08007c11   0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_XEN     0x08007af5   0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_YEN     0x08007b53   0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_R_ZEN     0x08007bb1   0x20  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_ReadReg   0x080077d3   0x12  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_Sensitivity_List
+                        0x080079f8   0x60  Data  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_BlockDataUpdate
+                        0x080077fd   0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_FifoMode
+                        0x08007c31   0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_FullScale
+                        0x0800783b   0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_ODR     0x08007a59   0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_XEN     0x08007ab7   0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_YEN     0x08007b15   0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_W_ZEN     0x08007b73   0x3e  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_ACC_WriteReg  0x080077c1   0x12  Code  Gb  LSM303AGR_ACC_driver.o [1]
+LSM303AGR_Combo_Data    0x20002698    0x2  Data  Gb  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_0_Data      0x20002614    0x8  Data  Lc  SensorTile_accelero.o [1]
+LSM303AGR_X_Check_WhoAmI
+                        0x080071bb   0x2c  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_DeInit      0x0800701b   0x5a  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Drv         0x20000000   0x50  Data  Gb  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_Axes    0x080071e7   0x26  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_AxesRaw
+                        0x0800720d   0x6e  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_Axes_Status
+                        0x080076c9   0x5c  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_DRDY_Status
+                        0x08007799   0x28  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_FS      0x08007599   0x4e  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_ODR     0x080073c1   0x66  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_Sensitivity
+                        0x0800727b  0x142  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Get_WhoAmI  0x080071a9   0x12  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Init        0x08006f95   0x86  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Read_Reg    0x08007771   0x14  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Sensor_Disable
+                        0x08007107   0x8e  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Sensor_Enable
+                        0x08007075   0x92  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Set_Axes_Status
+                        0x08007725   0x4c  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Set_FS      0x080075e9   0x30  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Set_FS_Value
+                        0x08007619   0x48  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Set_ODR     0x08007429   0x66  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Set_ODR_Value
+                        0x08007491  0x108  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM303AGR_X_Write_Reg   0x08007785   0x14  Code  Lc  LSM303AGR_ACC_driver_HL.o [1]
+LSM6DSM_ACC_GYRO_GetRawAccData
+                        0x08001db1   0x48  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_Get_GetStepCounter
+                        0x08001df9   0x2e  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_D6D_EV_STATUS
+                        0x08001741   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DOUBLE_TAP_EV_STATUS
+                        0x08001641   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_XH
+                        0x080016a1   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_XL
+                        0x08001681   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_YH
+                        0x080016e1   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_YL
+                        0x080016c1   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_ZH
+                        0x08001721   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_DSD_ZL
+                        0x08001701   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_FF_EV_STATUS
+                        0x08001621   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_FS_XL
+                        0x080013e5   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_ODR_XL
+                        0x08001449   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_PEDO_EV_STATUS
+                        0x08001761   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_SINGLE_TAP_EV_STATUS
+                        0x08001661   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_TILT_EV_STATUS
+                        0x08001781   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_WHO_AM_I
+                        0x08001389   0x18  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_R_WU_EV_STATUS
+                        0x08001601   0x20  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_6DEvOnInt2
+                        0x08001c5d   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_BASIC_INT
+                        0x0800186d   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_BDU  0x080014ad   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_DUR  0x080019bb   0x4a  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FFEvOnInt2
+                        0x08001ce5   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FF_Duration
+                        0x08001b97   0x82  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FF_THS
+                        0x08001b53   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FIFO_MODE
+                        0x08001301   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FS_XL
+                        0x080013a1   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_FUNC_EN
+                        0x080015bd   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_IF_Addr_Incr
+                        0x08001469   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_ODR_XL
+                        0x08001405   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_PEDO
+                        0x08001579   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_PedoStepReset
+                        0x080014f1   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_PedoThreshold
+                        0x08001e27   0xa2  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_QUIET_Duration
+                        0x08001979   0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_SHOCK_Duration
+                        0x08001937   0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_SINGLE_DOUBLE_TAP_EV
+                        0x08001a47   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_SIXD_THS
+                        0x080018f3   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_SLEEP_DUR
+                        0x08001a8b   0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_STEP_DELTA_on_INT2
+                        0x08001345   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_SingleTapOnInt2
+                        0x08001d6d   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TAP_THS
+                        0x080018b1   0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TAP_X_EN
+                        0x08001829   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TAP_Y_EN
+                        0x080017e5   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TAP_Z_EN
+                        0x080017a1   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TILT
+                        0x08001535   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TIMER_HR
+                        0x08001acd   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TapEvOnInt2
+                        0x08001ca1   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_TiltEvOnInt2
+                        0x08001c19   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_WAKE_DUR
+                        0x08001b11   0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_WK_THS
+                        0x08001a05   0x42  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_ACC_GYRO_W_WUEvOnInt2
+                        0x08001d29   0x44  Code  Gb  LSM6DSM_ACC_GYRO_driver.o [1]
+LSM6DSM_Combo_Data      0x2000269a    0x2  Data  Gb  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_Sensor_IO_ITConfig
+                        0x08002391   0x4c  Code  Gb  SensorTile.o [1]
+LSM6DSM_X_0_Data        0x2000260c    0x8  Data  Lc  SensorTile_accelero.o [1]
+LSM6DSM_X_Check_WhoAmI  0x080004b9   0x2c  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_DeInit        0x080001f9  0x138  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_6D_Orientation
+                        0x08001145   0x2a  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Double_Tap_Detection
+                        0x08001009   0x74  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Free_Fall_Detection
+                        0x08000b71   0x34  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Pedometer
+                        0x08000c3d   0x34  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Single_Tap_Detection
+                        0x08000ee1   0x5c  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Step_Counter_Reset
+                        0x08000cbf   0x14  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Tilt_Detection
+                        0x08000d39   0x2a  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Disable_Wake_Up_Detection
+                        0x08000deb   0x34  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Drv           0x200000e4   0x50  Data  Gb  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_6D_Orientation
+                        0x080010ed   0x54  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Double_Tap_Detection
+                        0x08000f65   0xa0  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Free_Fall_Detection
+                        0x08000acd   0x7c  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Pedometer
+                        0x08000bdf   0x5e  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Single_Tap_Detection
+                        0x08000e59   0x88  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Step_Counter_Reset
+                        0x08000cab   0x14  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Tilt_Detection
+                        0x08000ce5   0x54  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Enable_Wake_Up_Detection
+                        0x08000d8d   0x5e  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_ExtDrv        0x20000050   0x94  Data  Gb  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_Status
+                        0x0800116f   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_XH
+                        0x080011bf   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_XL
+                        0x08001197   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_YH
+                        0x0800120f   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_YL
+                        0x080011e7   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_ZH
+                        0x0800125f   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_6D_Orientation_ZL
+                        0x08001237   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Axes      0x080004e5   0xcc  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_AxesRaw   0x080005cd   0x4a  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Double_Tap_Detection_Status
+                        0x0800107d   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_FS        0x080008ed   0x52  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Free_Fall_Detection_Status
+                        0x08000ba5   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_ODR       0x0800066d   0x92  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Pedometer_Status
+                        0x08000c71   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Sensitivity
+                        0x08000619   0x4a  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Single_Tap_Detection_Status
+                        0x08000f3d   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Step_Count
+                        0x08000c99   0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Tilt_Detection_Status
+                        0x08000d63   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_Wake_Up_Detection_Status
+                        0x08000e1f   0x28  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Get_WhoAmI    0x080004a7   0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Init          0x08000189   0x70  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Sensor_Disable
+                        0x080003f9   0xae  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Sensor_Enable
+                        0x08000331   0xc8  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_FS        0x08000941   0x30  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_FS_Value  0x08000971   0x48  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Free_Fall_Threshold
+                        0x08000bcd   0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_ODR       0x08000701   0x60  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_ODR_Value
+                        0x08000771  0x17a  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_ODR_Value_When_Enabled
+                        0x08000a19   0xb4  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Pedometer_Threshold
+                        0x08000cd3   0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Tap_Duration_Time
+                        0x080010db   0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Tap_Quiet_Time
+                        0x080010c9   0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Tap_Shock_Time
+                        0x080010b7   0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Tap_Threshold
+                        0x080010a5   0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LSM6DSM_X_Set_Wake_Up_Threshold
+                        0x08000e47   0x12  Code  Lc  LSM6DSM_ACC_GYRO_driver_HL.o [1]
+LineCoding              0x20000250    0x8  Data  Gb  usbd_cdc_if.o [1]
+MSIRangeTable           0x08007ee8   0x30  Data  Gb  system_stm32l4xx.o [1]
+MX_DMA_Init             0x08003fdd   0x34  Code  Gb  dma.o [1]
+MX_GPIO_Init            0x08003ecd  0x110  Code  Gb  gpio.o [1]
+MX_SPI3_Init            0x0800392d   0x52  Code  Gb  spi.o [1]
+MX_USB_DEVICE_Init      0x08004011   0x32  Code  Gb  usb_device.o [1]
+MemManage_Handler       0x08007f5d    0x2  Code  Gb  stm32l4xx_it.o [1]
+NMI_Handler             0x08007f59    0x2  Code  Gb  stm32l4xx_it.o [1]
+OTG_FS_IRQHandler       0x08007f81    0x6  Code  Gb  stm32l4xx_it.o [1]
+PCD_WriteEmptyTxFifo    0x080064b1   0xa2  Code  Lc  stm32l4xx_hal_pcd.o [1]
+PendSV_Handler          0x08007f67    0x2  Code  Gb  stm32l4xx_it.o [1]
+R                       0x20002689    0x1  Data  Gb  main.o [1]
+RCCEx_PLLSAI1_Config    0x080036d9  0x130  Code  Lc  stm32l4xx_hal_rcc_ex.o [1]
+RCCEx_PLLSAI2_Config    0x08003809  0x114  Code  Lc  stm32l4xx_hal_rcc_ex.o [1]
+RCC_SetFlashLatencyFromMSIRange
+                        0x08004be3   0x7c  Code  Lc  stm32l4xx_hal_rcc.o [1]
+Region$$Table$$Base     0x08007fec          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0800800c          --   Gb  - Linker created -
+SPI_DMAError            0x08002a9d   0x1e  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_DMAHalfTransmitCplt
+                        0x08002a95    0x6  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_DMATransmitCplt     0x08002985  0x10e  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_Read                0x080023dd   0x3c  Code  Gb  SensorTile.o [1]
+SPI_Sensor_Handle       0x200024c0   0x64  Data  Lc  SensorTile.o [1]
+SPI_Write               0x08002419   0x1e  Code  Gb  SensorTile.o [1]
+SVC_Handler             0x08007f63    0x2  Code  Gb  stm32l4xx_it.o [1]
+Send_8bits              0x08004079   0xa2  Code  Gb  Adafruit_NeoPixel.o [1]
+Send_8bits::CodeOne     0x200002ac    0x1  Data  Lc  Adafruit_NeoPixel.o [1]
+Send_8bits::CodeZero    0x200002ad    0x1  Data  Lc  Adafruit_NeoPixel.o [1]
+Sensor_IO_I2C_Read      0x080021a1   0x30  Code  Gb  SensorTile.o [1]
+Sensor_IO_I2C_Write     0x08002135   0x30  Code  Gb  SensorTile.o [1]
+Sensor_IO_Read          0x08002165   0x3c  Code  Gb  SensorTile.o [1]
+Sensor_IO_SPI_CS_Disable
+                        0x0800234d   0x44  Code  Gb  SensorTile.o [1]
+Sensor_IO_SPI_CS_Enable
+                        0x08002309   0x44  Code  Gb  SensorTile.o [1]
+Sensor_IO_SPI_CS_Init   0x08002015   0xe4  Code  Gb  SensorTile.o [1]
+Sensor_IO_SPI_Init      0x08001f53   0xc2  Code  Gb  SensorTile.o [1]
+Sensor_IO_SPI_Read      0x0800229f   0x68  Code  Gb  SensorTile.o [1]
+Sensor_IO_SPI_Write     0x080021d1   0xce  Code  Gb  SensorTile.o [1]
+Sensor_IO_Write         0x080020f9   0x3c  Code  Gb  SensorTile.o [1]
+SysTick_Handler         0x08007f69   0x12  Code  Gb  stm32l4xx_it.o [1]
+SystemClock_Config      0x08003d89   0xb4  Code  Gb  main.o [1]
+SystemCoreClock         0x2000013c    0x4  Data  Gb  system_stm32l4xx.o [1]
+SystemInit              0x08007e8d   0x3e  Code  Gb  system_stm32l4xx.o [1]
+TargetBoardFeatures     0x2000268c    0x8  Data  Gb  main.o [1]
+USBD_CDC                0x2000014c   0x38  Data  Gb  usbd_cdc.o [1]
+USBD_CDC_CfgFSDesc      0x200001c8   0x44  Data  Gb  usbd_cdc.o [1]
+USBD_CDC_CfgHSDesc      0x20000184   0x44  Data  Gb  usbd_cdc.o [1]
+USBD_CDC_DataIn         0x0800510d   0x14  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_DataOut        0x08005121   0x34  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_DeInit         0x0800505f   0x3a  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_DeviceQualifierDesc
+                        0x20000140    0xc  Data  Lc  usbd_cdc.o [1]
+USBD_CDC_EP0_RxReady    0x08005155   0x2a  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_GetDeviceQualifierDescriptor
+                        0x08005197    0x8  Code  Gb  usbd_cdc.o [1]
+USBD_CDC_GetFSCfgDesc   0x0800517f    0x8  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_GetHSCfgDesc   0x08005187    0x8  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_GetOtherSpeedCfgDesc
+                        0x0800518f    0x8  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_Init           0x08004fdd   0x82  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_OtherSpeedCfgDesc
+                        0x2000020c   0x44  Data  Gb  usbd_cdc.o [1]
+USBD_CDC_ReceivePacket  0x08005217   0x2c  Code  Gb  usbd_cdc.o [1]
+USBD_CDC_RegisterInterface
+                        0x080051b5    0xe  Code  Gb  usbd_cdc.o [1]
+USBD_CDC_SetRxBuffer    0x080051d3    0xc  Code  Gb  usbd_cdc.o [1]
+USBD_CDC_SetTxBuffer    0x080051c3   0x10  Code  Gb  usbd_cdc.o [1]
+USBD_CDC_Setup          0x08005099   0x74  Code  Lc  usbd_cdc.o [1]
+USBD_CDC_Setup::ifalt   0x2000269c    0x1  Data  Lc  usbd_cdc.o [1]
+USBD_CDC_TransmitPacket
+                        0x080051df   0x38  Code  Gb  usbd_cdc.o [1]
+USBD_ClrClassConfig     0x08004da3   0x12  Code  Gb  usbd_core.o [1]
+USBD_CtlContinueRx      0x08005a97   0x14  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlContinueSendData
+                        0x08005a61   0x14  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlPrepareRx       0x08005a75   0x22  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlReceiveStatus   0x08005ac5   0x1a  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendData        0x08005a43   0x1e  Code  Gb  usbd_ioreq.o [1]
+USBD_CtlSendStatus      0x08005aab   0x1a  Code  Gb  usbd_ioreq.o [1]
+USBD_FS_BOSDesc         0x2000029c    0xc  Data  Gb  usbd_desc.o [1]
+USBD_FS_ConfigStrDescriptor
+                        0x08007df5   0x14  Code  Gb  usbd_desc.o [1]
+USBD_FS_DeviceDesc      0x20000288   0x14  Data  Gb  usbd_desc.o [1]
+USBD_FS_DeviceDescriptor
+                        0x08007da9    0x8  Code  Gb  usbd_desc.o [1]
+USBD_FS_InterfaceStrDescriptor
+                        0x08007e09   0x14  Code  Gb  usbd_desc.o [1]
+USBD_FS_LangIDStrDescriptor
+                        0x08007db1    0x8  Code  Gb  usbd_desc.o [1]
+USBD_FS_ManufacturerStrDescriptor
+                        0x08007dcd   0x14  Code  Gb  usbd_desc.o [1]
+USBD_FS_ProductStrDescriptor
+                        0x08007db9   0x14  Code  Gb  usbd_desc.o [1]
+USBD_FS_SerialStrDescriptor
+                        0x08007de1   0x14  Code  Gb  usbd_desc.o [1]
+USBD_FS_USR_BOSDescriptor
+                        0x08007e1d    0x8  Code  Gb  usbd_desc.o [1]
+USBD_GetDescriptor      0x08005859  0x12a  Code  Lc  usbd_ctlreq.o [1]
+USBD_GetString          0x080059ab   0x98  Code  Gb  usbd_ctlreq.o [1]
+USBD_Init               0x08004d45   0x2a  Code  Gb  usbd_core.o [1]
+USBD_Interface_fops_FS  0x20000258   0x10  Data  Gb  usbd_cdc_if.o [1]
+USBD_LL_BatteryCharging
+                        0x0800558b   0x12  Code  Gb  usbd_conf.o [1]
+USBD_LL_ClearStallEP    0x08005487   0x1a  Code  Gb  usbd_conf.o [1]
+USBD_LL_CloseEP         0x08005453   0x1a  Code  Gb  usbd_conf.o [1]
+USBD_LL_DataInStage     0x08004e87   0xaa  Code  Gb  usbd_core.o [1]
+USBD_LL_DataOutStage    0x08004e19   0x6e  Code  Gb  usbd_core.o [1]
+USBD_LL_DevConnected    0x08004fbb    0x4  Code  Gb  usbd_core.o [1]
+USBD_LL_DevDisconnected
+                        0x08004fbf   0x1c  Code  Gb  usbd_core.o [1]
+USBD_LL_GetRxDataSize   0x0800550f    0x8  Code  Gb  usbd_conf.o [1]
+USBD_LL_Init            0x080053b5   0x60  Code  Gb  usbd_conf.o [1]
+USBD_LL_IsStallEP       0x080054a1   0x20  Code  Gb  usbd_conf.o [1]
+USBD_LL_IsoINIncomplete
+                        0x08004fb3    0x4  Code  Gb  usbd_core.o [1]
+USBD_LL_IsoOUTIncomplete
+                        0x08004fb7    0x4  Code  Gb  usbd_core.o [1]
+USBD_LL_OpenEP          0x0800542f   0x24  Code  Gb  usbd_conf.o [1]
+USBD_LL_PrepareReceive  0x080054f5   0x1a  Code  Gb  usbd_conf.o [1]
+USBD_LL_Reset           0x08004f31   0x42  Code  Gb  usbd_core.o [1]
+USBD_LL_Resume          0x08004f8b    0xc  Code  Gb  usbd_core.o [1]
+USBD_LL_SOF             0x08004f97   0x1c  Code  Gb  usbd_core.o [1]
+USBD_LL_SetSpeed        0x08004f73    0x6  Code  Gb  usbd_core.o [1]
+USBD_LL_SetUSBAddress   0x080054c1   0x1a  Code  Gb  usbd_conf.o [1]
+USBD_LL_SetupStage      0x08004db5   0x64  Code  Gb  usbd_core.o [1]
+USBD_LL_StallEP         0x0800546d   0x1a  Code  Gb  usbd_conf.o [1]
+USBD_LL_Start           0x08005415   0x1a  Code  Gb  usbd_conf.o [1]
+USBD_LL_Suspend         0x08004f79   0x12  Code  Gb  usbd_core.o [1]
+USBD_LL_Transmit        0x080054db   0x1a  Code  Gb  usbd_conf.o [1]
+USBD_LangIDDesc         0x200002a8    0x4  Data  Gb  usbd_desc.o [1]
+USBD_ParseSetupRequest  0x08005983   0x28  Code  Gb  usbd_ctlreq.o [1]
+USBD_RegisterClass      0x08004d6f   0x10  Code  Gb  usbd_core.o [1]
+USBD_SetClassConfig     0x08004d8d   0x16  Code  Gb  usbd_core.o [1]
+USBD_SetConfig::cfgidx  0x2000269d    0x1  Data  Lc  usbd_ctlreq.o [1]
+USBD_Start              0x08004d7f    0xe  Code  Gb  usbd_core.o [1]
+USBD_StdDevReq          0x080055a5  0x15c  Code  Gb  usbd_ctlreq.o [1]
+USBD_StdEPReq           0x0800574d  0x10c  Code  Gb  usbd_ctlreq.o [1]
+USBD_StdItfReq          0x08005705   0x48  Code  Gb  usbd_ctlreq.o [1]
+USBD_StrDesc            0x200022c0  0x200  Data  Gb  usbd_desc.o [1]
+USBD_static_free        0x08005589    0x2  Code  Gb  usbd_conf.o [1]
+USBD_static_malloc      0x08005575    0x4  Code  Gb  usbd_conf.o [1]
+USBD_static_malloc::mem
+                        0x200020a0  0x220  Data  Lc  usbd_conf.o [1]
+USB_ActivateEndpoint    0x080068d5   0x8a  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_ActivateSetup       0x08006ea3   0x2e  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_CoreInit            0x08006689   0x38  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_DeactivateEndpoint  0x0800695f   0x6a  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_DevConnect          0x08006e05   0x1c  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_DevDisconnect       0x08006e21   0x1c  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_DevInit             0x08006709  0x1ae  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_DisableGlobalInt    0x080066cd    0xc  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_EP0StartXfer        0x08006bd7  0x116  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_EP0_OutStart        0x08006ed1   0x24  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_EPClearStall        0x08006d8b   0x5e  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_EPSetStall          0x08006d31   0x5a  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_EPStartXfer         0x080069c9  0x20e  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_EnableGlobalInt     0x080066c1    0xc  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_FlushTxFifo         0x080068b7   0x1e  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_GetMode             0x08006e9b    0x8  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_ReadDevAllInEpInterrupt
+                        0x08006e55    0xe  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_ReadDevAllOutEpInterrupt
+                        0x08006e47    0xe  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_ReadDevInEPInterrupt
+                        0x08006e79   0x22  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_ReadDevOutEPInterrupt
+                        0x08006e63   0x16  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_ReadInterrupts      0x08006e3d    0xa  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_ReadPacket          0x08006d13   0x1e  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_SetCurrentMode      0x080066d9   0x2e  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_SetDevAddress       0x08006de9   0x1c  Code  Gb  stm32l4xx_ll_usb.o [1]
+USB_WritePacket         0x08006ced   0x26  Code  Gb  stm32l4xx_ll_usb.o [1]
+UsageFault_Handler      0x08007f61    0x2  Code  Gb  stm32l4xx_it.o [1]
+UserRxBufferFS          0x200012b0  0x400  Data  Gb  usbd_cdc_if.o [1]
+UserTxBufferFS          0x200016b0  0x400  Data  Gb  usbd_cdc_if.o [1]
+WS2812B_Init            0x0800411b   0x46  Code  Gb  Adafruit_NeoPixel.o [1]
+WhoAmI                  0x20002688    0x1  Data  Gb  main.o [1]
+__aeabi_ldiv0           0x08007da5         Code  Gb  I64DivZer.o [5]
+__aeabi_ldivmod         0x08007c71         Code  Gb  I64DivMod.o [5]
+__aeabi_memclr          0x0800559d         Code  Gb  ABImemclr.o [5]
+__aeabi_memcpy4         0x08006f0d         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8         0x08006f0d         Code  Gb  ABImemcpy.o [5]
+__aeabi_uldivmod        0x08007cb5         Code  Gb  I64DivMod.o [5]
+__cmain                 0x0800800d         Code  Gb  cmain.o [5]
+__exit                  0x0800803d   0x14  Code  Gb  exit.o [6]
+__iar_Memset_word       0x08006629         Code  Gb  ABImemset.o [5]
+__iar_data_init3        0x08007fa1   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x08007fc9         Code  Gb  fpinit_M.o [4]
+__iar_lz77_init_single3
+                        0x08001287   0x7a  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x08008061         Code  Gb  cstartup_M.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x08007f19   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08008027    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32l476xx.o [1]
+_call_main              0x08008019         Code  Gb  cmain.o [5]
+_exit                   0x08008031         Code  Gb  cexit.o [5]
+_main                   0x08008023         Code  Gb  cmain.o [5]
+bBuffer                 0x20002674    0x8  Data  Gb  Adafruit_NeoPixel.o [1]
+exit                    0x0800802b    0x4  Code  Gb  exit.o [3]
+gBuffer                 0x2000266c    0x8  Data  Gb  Adafruit_NeoPixel.o [1]
+hUsbDeviceFS            0x20001e7c  0x224  Data  Gb  usb_device.o [1]
+hdma_spi3_tx            0x2000261c   0x48  Data  Gb  spi.o [1]
+hpcd_USB_OTG_FS         0x20001ab0  0x3cc  Data  Gb  usbd_conf.o [1]
+hspi3                   0x20002524   0x64  Data  Gb  spi.o [1]
+main                    0x08003c55  0x134  Code  Gb  main.o [1]
+rBuffer                 0x20002664    0x8  Data  Gb  Adafruit_NeoPixel.o [1]
+setAllPixelColor        0x08004161   0xfc  Code  Gb  Adafruit_NeoPixel.o [1]
+uwTick                  0x20002694    0x4  Data  Gb  stm32l4xx_hal.o [1]
+
+
+[1] = C:\Users\DengQ\Desktop\SensorTile\EWARM\SensorTile\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  33 158 bytes of readonly  code memory
+     521 bytes of readonly  data memory
+   9 884 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

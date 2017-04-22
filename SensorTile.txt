@@ -1,0 +1,50 @@
+Configuration	SensorTile
+STM32CubeMX 	4.20.0
+Date	04/22/2017
+MCU	STM32L476JGYx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI3	Transmit Only Master	SPI3_MOSI	PG11
+SPI3	Transmit Only Master	SPI3_SCK	PG9
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+UART5	Single Wire (Half-Duplex)	UART5_TX	PC12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+A4	PG9	SPI3_SCK	
+B2	PA14	SYS_JTCK-SWCLK	
+B3	PC12	UART5_TX	
+C2	PA13	SYS_JTMS-SWDIO	
+C4	PG11	SPI3_MOSI	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : SensorTile
+Project Folder : C:\Users\DengQ\Desktop\SensorTile
+Toolchain / IDE : EWARM
+Firmware Package Name and Version : STM32Cube FW_L4 V1.7.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : Yes
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
